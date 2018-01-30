@@ -1,5 +1,7 @@
 
 # coding: utf-8
+# this is a prime number detect file
+#x is input number, then return the list that contains prime numbers.
 
 def prime_num_detect(x):
     lists = []
@@ -14,11 +16,8 @@ def prime_num_detect(x):
     else:
         print('input number must be integer and more than 0')
 
-
 x = input()
 x = int(x)
-
-
 
 prime_num_detect(x)
 
