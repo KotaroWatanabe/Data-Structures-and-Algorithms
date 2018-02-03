@@ -1,7 +1,6 @@
 
 # coding: utf-8
 
-# In[39]:
 
 def iterative_bin_search(lists,target):
     
@@ -24,3 +23,4 @@ def iterative_bin_search(lists,target):
     if found == False:
         print(target,' is not found in the list!')
 
+def recursive_bin_search(lists,target):
