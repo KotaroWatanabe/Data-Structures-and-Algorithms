@@ -1,8 +1,6 @@
 
 # coding: utf-8
 
-# In[39]:
-
 def iterative_bin_search(lists,target):
     
     max_index = len(lists)-1
